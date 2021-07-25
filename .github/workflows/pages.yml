@@ -17,11 +17,16 @@ jobs:
           sudo gem install bundler
           bundle install
 
-      - name: 🖉 repo
-        run: echo "REPOSITORY=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+      - name: 🖉 default org
+        if: env.PAGES_ORGANIZATION == ''
+        run: echo "PAGES_ORGANIZATION=clarius" >> $GITHUB_ENV
+
+      - name: 🖉 default repo
+        if: env.PAGES_REPOSITORY == ''
+        run: echo "PAGES_REPOSITORY=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
       - name: 🙏 build
-        run: bundle exec jekyll build -b ${{ env.REPOSITORY }}
+        run: bundle exec jekyll build -b ${{ env.PAGES_REPOSITORY }}
         env:
           JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
@@ -37,8 +42,8 @@ jobs:
       - name: 🚀 push
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.CLARIUS_ACCESS_TOKEN }}
-          repository: clarius/${{ env.REPOSITORY }}
+          github_token: ${{ secrets.PAGES_ACCESS_TOKEN }}
+          repository: ${{ env.PAGES_ORGANIZATION }}/${{ env.PAGES_REPOSITORY }}
           branch: gh-pages
           force: true
           directory: ./_site
