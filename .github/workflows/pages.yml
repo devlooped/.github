@@ -5,6 +5,11 @@ on:
       - main
       - pages
 
+env:
+  PAGES_ORGANIZATION: ${{ secrets.PAGES_ORGANIZATION }}
+  PAGES_REPOSITORY: ${{ secrets.PAGES_REPOSITORY }}
+  PAGES_ACCESS_TOKEN: ${{ secrets.PAGES_ACCESS_TOKEN }}
+
 jobs:
   gh-pages:
     runs-on: ubuntu-latest
@@ -17,13 +22,13 @@ jobs:
           sudo gem install bundler
           bundle install
 
-      - name: 🖉 default org
-        if: env.PAGES_ORGANIZATION == ''
-        run: echo "PAGES_ORGANIZATION=clarius" >> $GITHUB_ENV
-
       - name: 🖉 default repo
-        if: env.PAGES_REPOSITORY == ''
+        if: ${{ env.PAGES_REPOSITORY }} == ''
         run: echo "PAGES_REPOSITORY=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+
+      - name: 🖉 default token
+        if: env.PAGES_ACCESS_TOKEN == ''
+        run: echo "PAGES_ACCESS_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
 
       - name: 🙏 build
         run: bundle exec jekyll build -b ${{ env.PAGES_REPOSITORY }}
@@ -35,14 +40,14 @@ jobs:
           cd _site
           git init
           git add -A
-          git config --local user.email "hello@clarius.org"
-          git config --local user.name "GitHub Action"
+          git config --local user.email "bot@devlooped.com"
+          git config --local user.name "bot@devlooped.com"
           git commit -m "Publish pages from ${GITHUB_REPOSITORY}@${GITHUB_SHA:0:9}"
 
       - name: 🚀 push
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ secrets.PAGES_ACCESS_TOKEN }}
+          github_token: ${{ env.PAGES_ACCESS_TOKEN }}
           repository: ${{ env.PAGES_ORGANIZATION }}/${{ env.PAGES_REPOSITORY }}
           branch: gh-pages
           force: true
