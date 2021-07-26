@@ -9,7 +9,6 @@ on:
 env:
   PAGES_ORGANIZATION: ${{ secrets.PAGES_ORGANIZATION }}
   PAGES_REPOSITORY: ${{ secrets.PAGES_REPOSITORY }}
-  PAGES_ACCESS_TOKEN: ${{ secrets.PAGES_ACCESS_TOKEN }}
 
 jobs:
   gh-pages:
@@ -23,13 +22,17 @@ jobs:
           sudo gem install bundler
           bundle install
 
-      - name: 🖉 default repo
-        if: ${{ env.PAGES_REPOSITORY }} == ''
-        run: echo "PAGES_REPOSITORY=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
+      - name: 🖉 default env
+        env:
+          PAGES_ORGANIZATION: ${{ secrets.PAGES_ORGANIZATION }}
+          PAGES_REPOSITORY: ${{ secrets.PAGES_REPOSITORY }}
+        run: |
+          echo "PAGES_ORGANIZATION=${PAGES_ORGANIZATION}" >> $GITHUB_ENV
+          echo "PAGES_REPOSITORY=${PAGES_REPOSITORY}" >> $GITHUB_ENV
 
-      - name: 🖉 default token
-        if: env.PAGES_ACCESS_TOKEN == ''
-        run: echo "PAGES_ACCESS_TOKEN=${{ secrets.GITHUB_TOKEN }}" >> $GITHUB_ENV
+      - name: 🖉 default repo
+        if: env.PAGES_REPOSITORY == ''
+        run: echo "PAGES_REPOSITORY=${GITHUB_REPOSITORY#*/}" >> $GITHUB_ENV
 
       - name: 🙏 build
         run: bundle exec jekyll build -b ${{ env.PAGES_REPOSITORY }}
@@ -48,7 +51,7 @@ jobs:
       - name: 🚀 push
         uses: ad-m/github-push-action@v0.6.0
         with:
-          github_token: ${{ env.PAGES_ACCESS_TOKEN }}
+          github_token: ${{ secrets.PAGES_ACCESS_TOKEN }}
           repository: ${{ env.PAGES_ORGANIZATION }}/${{ env.PAGES_REPOSITORY }}
           branch: gh-pages
           force: true
