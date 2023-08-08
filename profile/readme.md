@@ -40,8 +40,6 @@ Some fancy stats about my favorite hobbie (coding on GitHub, of course!):
 </picture>
 </p>
 
-<h1></h1>
-
 <p>
 <picture>
   <source
