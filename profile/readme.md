@@ -1,6 +1,6 @@
 <h1 align="center">Hi 👋, I'm kzu</h1>
 <p align="center"><i>sounds like 'kah-zu' rather than 'kzoo' :)</i></p>
-<h3 align="center">A hardcode .NET/C# developer from Argentina</h3>
+<h3 align="center">A hardcore .NET/C# developer from Argentina</h3>
 
 [![X](https://img.shields.io/badge/X-@kzu-blue?logo=twitter&logoColor=1D9BF0&labelColor=black)](https://x.com/kzu)
 [![Discord](https://img.shields.io/badge/discord-danielkzu-7289DA.svg?logo=discord&logoColor=white)](https://discord.gg/8PtpGdu)
