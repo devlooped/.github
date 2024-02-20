@@ -3,7 +3,7 @@
 <h3 align="center">A hardcore .NET/C# developer from Argentina</h3>
 
 [![X](https://img.shields.io/badge/X-@kzu-blue?logo=twitter&logoColor=1D9BF0&labelColor=black)](https://x.com/kzu)
-[![Discord](https://img.shields.io/badge/discord-danielkzu-7289DA.svg?logo=discord&logoColor=white)](https://discord.gg/8PtpGdu)
+[![Discord](https://img.shields.io/badge/discord-danielkzu-7289DA.svg?logo=discord&logoColor=white)](https://discord.gg/2M6WBFrywB)
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-danielkzu-0A66C2.svg?logo=linkedin&logoColor=0A66C2&labelColor=silver)]([https://discord.gg/8PtpGdu](https://linkedin.com/in/danielcazzulino))
 
 This is my sponsor account so you can contribute to my ongoing opensource work, no minimum amount required!
