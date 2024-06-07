@@ -11,6 +11,8 @@ This is my sponsor account so you can contribute to my ongoing opensource work, 
 [![Sponsor me 💜](https://raw.githubusercontent.com/devlooped/sponsors/main/sponsor.png#gh-light-mode-only "Sponsor me 💜")](https://github.com/sponsors/devlooped#gh-light-mode-only)
 [![Sponsor me 💜](https://raw.githubusercontent.com/devlooped/sponsors/main/sponsor-dark.png#gh-dark-mode-only "Sponsor me 💜")](https://github.com/sponsors/devlooped#gh-dark-mode-only)
 
+<div id="stats"></div>
+
 Some fancy stats about my favorite hobby (coding on GitHub, of course!):
 
 <p>
