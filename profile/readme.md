@@ -1,4 +1,4 @@
-Hello there! This is @kzu (sounds like 'kah-zu' rather than 'kzoo' 😉) organization account 
+Hello there! This is [@kzu](https://github.com/kzu)'s (sounds like 'kah-zu' rather than 'kzoo' 😉) organization account 
 where I publish projects I think might be useful to others and not just personal experiments. 
 
 This is also the organization account you can actually [sponsor](https://github.com/sponsors/devlooped) 
