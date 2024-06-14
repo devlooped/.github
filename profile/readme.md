@@ -50,18 +50,17 @@ never issues any messages outside of IDE usage, so it will never disrupt your CI
 If you arrived here from an IDE and are interested in sponsoring, the (one-time) steps are:
 
 1. Select your [sponsor](https://github.com/sponsors/devlooped) tier 🙏
-2. Install the [GitHub CLI](https://cli.github.com/) if you haven't installed it already. It's a fantastic tool!
-3. Install the [gh-sponsors](https://github.com/devlooped/gh-sponsors) GitHub CLI extension by running
+1. Install the [sponsor dotnet global tool](https://nuget.org/packages/dotnet-sponsor) by running
    ```shell
-   gh extension install devlooped/gh-sponsors
+   dotnet tool install -g dotnet-sponsor
    ```
 4. Sync your sponsorship status by running
    ```shell
-   gh sponsors sync devlooped
+   sponsor sync devlooped
    ```
 
 Feel free to dive deeper into the [technical details](https://www.devlooped.com/SponsorLink/github.html) of how 
-this works.
+this works. You can also implement SponsorLink yourself with minimal effort for your own projects.
 
 ### Implicit or Indirect Sponsorships
 
@@ -78,5 +77,5 @@ an indirect sponsor too! This allows organizations to support projects their emp
 Sponsorships are renewed monthly (even if paid anually), so your dev machine manifest needs monthly renewal too.
 You can simplify this process by enabling [autosync](https://www.devlooped.com/SponsorLink/github.html#auto-sync) 
 so that the IDE tooling can automatically do this for you by checking at most once a day for expiration and running 
-the same command you'd have to run manually: `gh sponsors sync devlooped`.
+the same command you'd have to run manually: `sponsor sync devlooped`.
 
