@@ -47,7 +47,7 @@ sponsor my projects if they find them useful. It also allows attribution on the 
 to potentially unlock additional functionality (or just remove the reminder and thank instead!). SponsorLink 
 never issues any messages outside of IDE usage, so it will never disrupt your CI/CD workflows or CLI builds.
 
-If you arrived here from an IDE and are looking for sponsoring, the (one-time) steps are:
+If you arrived here from an IDE and are interested in sponsoring, the (one-time) steps are:
 
 1. Select your [sponsor](https://github.com/sponsors/devlooped) tier 🙏
 2. Install the [GitHub CLI](https://cli.github.com/) if you haven't installed it already. It's a fantastic tool!
