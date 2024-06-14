@@ -50,13 +50,13 @@ never issues any messages outside of IDE usage, so it will never disrupt your CI
 If you arrived here from an IDE and are interested in sponsoring, the (one-time) steps are:
 
 1. Select your [sponsor](https://github.com/sponsors/devlooped) tier 🙏
-1. Install the [sponsor dotnet global tool](https://nuget.org/packages/dotnet-sponsor) by running
+1. Install the [sponsors dotnet global tool](https://nuget.org/packages/dotnet-sponsors) by running
    ```shell
-   dotnet tool install -g dotnet-sponsor
+   dotnet tool install -g dotnet-sponsors
    ```
 4. Sync your sponsorship status by running
    ```shell
-   sponsor sync devlooped
+   sponsors sync devlooped
    ```
 
 Feel free to dive deeper into the [technical details](https://www.devlooped.com/SponsorLink/github.html) of how 
