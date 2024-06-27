@@ -79,3 +79,11 @@ You can simplify this process by enabling [autosync](https://www.devlooped.com/S
 so that the IDE tooling can automatically do this for you by checking at most once a day for expiration and running 
 the same command you'd have to run manually: `sponsor sync devlooped`.
 
+### Stats
+
+SponsorLink sync usage by sponsorship kind:
+
+![User](https://img.shields.io/endpoint?color=ea4aaa&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fuser)
+![Organization](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Forg)
+![Team](https://img.shields.io/endpoint?color=8A2BE2&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fteam)
+![Contributor](https://img.shields.io/endpoint?color=blue&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fcontrib)
