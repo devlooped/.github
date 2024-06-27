@@ -81,7 +81,7 @@ the same command you'd have to run manually: `sponsor sync devlooped`.
 
 ### Stats
 
-SponsorLink sync usage by sponsorship kind:
+Active SponsorLink sync usage by sponsorship kind:
 
 ![User](https://img.shields.io/endpoint?color=ea4aaa&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fuser)
 ![Organization](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Forg)
