@@ -70,6 +70,11 @@ you are considered a sponsor already! Contributing your time and code is the mos
 If you belong to an organization that sponsors [@devlooped](https://github.com/sponsors/devlooped), then you are 
 an indirect sponsor too! This allows organizations to support projects their employees love and streamline invoicing.
 
+Finally, if you are an open-source author or contributor yourself, chances are you are elegible for an implicit 
+sponsorship I'll grant automatically! If your account shows up in the [OSS Authors](https://www.devlooped.com/SponsorLink/github/oss/), 
+you can just sync your implicit sponsorship and continue enjoying my projects with no additional sponsorship needed. 
+Contributing your valuable time to other projects is great too.
+
 <div id="autosync"></div>
 
 ### AutoSync
