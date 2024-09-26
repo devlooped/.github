@@ -62,13 +62,13 @@ If you arrived here from an IDE and are interested in sponsoring, the (one-time)
 Feel free to dive deeper into the [technical details](https://www.devlooped.com/SponsorLink/github.html) of how 
 this works. You can also implement SponsorLink yourself with minimal effort for your own projects.
 
-### Implicit or Indirect Sponsorships
+### Implicit and Indirect Sponsorships
 
 If you have ever sent a PR that was merged into any repository owned by [@devlooped](https://github.com/devlooped), 
-you are considered a sponsor already! Contributing your time and code is the most awesome way to support a project 🫶.
+you are considered an implicit sponsor already! Contributing your time and code is the most awesome way to support a project 🫶.
 
 If you belong to an organization that sponsors [@devlooped](https://github.com/sponsors/devlooped), then you are 
-an indirect sponsor too! This allows organizations to support projects their employees love and streamline invoicing.
+an indirect sponsor! This allows organizations to support projects their employees love and streamline invoicing.
 
 Finally, if you are an open-source author or contributor yourself, chances are you are elegible for an implicit 
 sponsorship I'll grant automatically! If your account shows up in the [OSS Authors](https://www.devlooped.com/SponsorLink/github/oss/), 
@@ -89,6 +89,7 @@ the same command you'd have to run manually: `sponsor sync devlooped`.
 Active SponsorLink sync usage by sponsorship kind:
 
 ![User](https://img.shields.io/endpoint?color=ea4aaa&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fuser)
-![Organization](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Forg)
+![Organization](https://img.shields.io/endpoint?color=yellow&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Forg)
 ![Team](https://img.shields.io/endpoint?color=8A2BE2&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fteam)
 ![Contributor](https://img.shields.io/endpoint?color=blue&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Fcontrib)
+![OSS](https://img.shields.io/endpoint?color=green&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fbadge%3Foss)
