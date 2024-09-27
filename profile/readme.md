@@ -6,7 +6,10 @@ to support my ongoing opensource work.
 
 ## Stats
 
+[![Popular NuGets](https://img.shields.io/endpoint?label=popular%20nugets&style=social&logo=nuget&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fnuget%2Fall)](https://www.nuget.org/profiles/devlooped)
+[![Daily Downloads](https://img.shields.io/endpoint?label=daily%20downloads&style=social&logo=nuget&url=https%3A%2F%2Fsponsorlink.devlooped.com%2Fnuget%2Fdl)](https://www.nuget.org/profiles/devlooped)
 [![GitHub Sponsors](https://img.shields.io/github/sponsors/devlooped?style=social&logo=githubsponsors)](https://github.com/sponsors/devlooped)
+
 [![GitHub followers](https://img.shields.io/github/followers/kzu?logo=GitHub&label=@kzu%20followers)](https://github.com/kzu)
 [![GitHub stars](https://img.shields.io/github/stars/kzu?logo=GitHub&label=@kzu%20stars&affiliations=OWNER,COLLABORATOR&color=FFC83D)](https://github.com/kzu)
 [![GitHub followers](https://img.shields.io/github/followers/devlooped?logo=GitHub&label=@devlooped%20followers)](https://github.com/devlooped)
