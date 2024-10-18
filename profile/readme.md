@@ -53,12 +53,14 @@ never issues any messages outside of IDE usage, so it will never disrupt your CI
 
 If you arrived here from an IDE and are interested in sponsoring, the (one-time) steps are:
 
-1. Select your [sponsor](https://github.com/sponsors/devlooped) tier 🙏
-1. Install the [sponsor dotnet global tool](https://nuget.org/packages/dotnet-sponsor) by running
+1. Select your [sponsor](https://github.com/sponsors/devlooped) tier 🙏. 
+   > If you are an [oss author](https://www.devlooped.com/SponsorLink/github/oss/), you don't have to
+   sponsor me unless you want to 🫶. 
+2. Install the [sponsor dotnet global tool](https://nuget.org/packages/dotnet-sponsor) by running
    ```shell
    dotnet tool install -g dotnet-sponsor
    ```
-4. Sync your sponsorship status by running
+3. Sync your sponsorship status by running
    ```shell
    sponsor sync devlooped
    ```
