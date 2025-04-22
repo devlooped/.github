@@ -49,7 +49,7 @@ Some fancy stats about my favorite hobby (coding on GitHub, of course!):
 I created [SponsorLink](https://www.devlooped.com/SponsorLink/) as a mechanism to remind users that they can 
 sponsor my projects if they find them useful. It also allows attribution on the dev machine of a sponsorship 
 to potentially unlock additional functionality (or just remove the reminder and thank instead!). SponsorLink 
-in libraries never issues any messages outside of IDE usage, so it will never disrupt your CI/CD workflows or 
+never issues any messages outside of IDE or interactive CLI usage, so it will never disrupt your CI/CD workflows or 
 CLI builds.
 
 If you arrived here from an IDE and are interested in sponsoring, the (one-time) steps are:
