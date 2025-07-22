@@ -4,6 +4,32 @@ where I publish projects I think might be useful to others and not just personal
 This is also the organization account you can actually [sponsor](https://github.com/sponsors/devlooped) 
 to support my ongoing opensource work.
 
+## Open Source Maintenance Fee
+
+Open Source Software is free, but maintaining an Open Source Project is expensive. Think about:
+
+* Triage issues
+* Keep build scripts working
+* Update software dependencies
+* Track security reports
+* Produce new releases
+* Tackle spam in the discussion forums and issue trackers
+* Maintain signing certificates
+* And many, many other chores
+
+The [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) is a simple and sensible way to pay for the time and effort they spend sustaining a project.
+
+For some of my projects, I started using this approach to test if it can be a viable mechanism 
+for ongoing sustainability (for example [SmallSharp](https://www.nuget.org/packages/SmallSharp) and 
+{Devlooped.WhatsApp](https://www.nuget.org/packages/Devlooped.WhatsApp)).
+
+If you're using a project with an [Open Source Maintenance Fee EULA](https://opensourcemaintenancefee.org/maintainers/eulas/)
+and you, your organization, or your project makes money, select the monthly payment tier that applies to the size of your organization. 
+If not, a personal sponsorship of your chosen amount to support @kzu's favorite activity is also welcomed!
+
+> Since the Maintenance Fee is paid via GitHub Sponsors, it automatically covers any <a href="#sponsorlink">SponsorLink</a> sponsoring 
+requirements for projects using it. 
+
 ## Stats
 
 [![NuGet Packages](https://img.shields.io/badge/dynamic/json?url=https%3A%2F%2Fgithub.com%2Fdevlooped%2Fnuget%2Fraw%2Frefs%2Fheads%2Fmain%2FDevlooped.json&query=%24.summary.packages&style=social&logo=nuget&label=packages)](https://www.nuget.org/profiles/devlooped)
