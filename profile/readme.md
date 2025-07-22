@@ -4,6 +4,8 @@ where I publish projects I think might be useful to others and not just personal
 This is also the organization account you can actually [sponsor](https://github.com/sponsors/devlooped) 
 to support my ongoing opensource work.
 
+<div id="osmf"></div>
+
 ## Open Source Maintenance Fee
 
 Open Source Software is free, but maintaining an Open Source Project is expensive. Think about:
