@@ -1,8 +1,15 @@
-Hello there! This is [@kzu](https://github.com/kzu)'s (sounds like 'kah-zu' rather than 'kzoo' 😉) organization account 
-where I publish projects I think might be useful to others and not just personal experiments. 
+Devlooped is all about accelerating your dev loop through sharper tools.
 
-This is also the organization account you can actually [sponsor](https://github.com/sponsors/devlooped) 
-to support my ongoing opensource work.
+These tools span several domains, such as testing, AI, general-purpose CLI and 
+build tools, application architecture, and more. Some are well established, others 
+niche, some large and some small. 
+
+To support us, rather than per-project licensing (which can become costly 
+or annoying to keep track of), we instead offer the Open Source Maintenance Fee, 
+which covers all current and future libraries and tools from Devlooped. 
+
+If a particular software/package does NOT include the OSMF EULA, then you're not bound by it 
+at all.
 
 <div id="osmf"></div>
 
@@ -21,9 +28,9 @@ Open Source Software is free, but maintaining an Open Source Project is expensiv
 
 The [Open Source Maintenance Fee](https://opensourcemaintenancefee.org/) is a simple and sensible way to pay for the time and effort they spend sustaining a project.
 
-For some of my projects, I started using this approach to test if it can be a viable mechanism 
-for ongoing sustainability (for example [SmallSharp](https://www.nuget.org/packages/SmallSharp) and 
-{Devlooped.WhatsApp](https://www.nuget.org/packages/Devlooped.WhatsApp)).
+We started using this approach to test if it can be a viable mechanism for ongoing sustainability 
+(for example [SmallSharp](https://www.nuget.org/packages/SmallSharp), 
+[Devlooped.WhatsApp](https://www.nuget.org/packages/Devlooped.WhatsApp) and others.
 
 If you're using a project with an [Open Source Maintenance Fee EULA](https://opensourcemaintenancefee.org/maintainers/eulas/)
 and you, your organization, or your project makes money, select the monthly payment tier that applies to the size of your organization. 
@@ -44,7 +51,7 @@ requirements for projects using it.
 [![GitHub followers](https://img.shields.io/github/followers/devlooped?logo=GitHub&label=@devlooped%20followers)](https://github.com/devlooped)
 [![GitHub Org's stars](https://img.shields.io/github/stars/devlooped?logo=GitHub&label=@devlooped%20stars)](https://github.com/devlooped)
 
-Some fancy stats about my favorite hobby (coding on GitHub, of course!):
+Some fancy stats about our favorite hobby (coding on GitHub, of course!):
 
 <p>
 <picture>
