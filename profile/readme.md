@@ -51,17 +51,18 @@ requirements for projects using it.
 [![GitHub followers](https://img.shields.io/github/followers/devlooped?logo=GitHub&label=@devlooped%20followers)](https://github.com/devlooped)
 [![GitHub Org's stars](https://img.shields.io/github/stars/devlooped?logo=GitHub&label=@devlooped%20stars)](https://github.com/devlooped)
 
-Some fancy stats about our favorite hobby (coding on GitHub, of course!):
+Some fancy stats about our favorite activity (coding on GitHub, of course!):
+
 
 <p>
 <picture>
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=kzu&show_icons=true&locale=en&show=discussions_answered&theme=dark&custom_title=Kzu%20Stats%20In%20A%20Nutshell"
+    srcset="https://github-readme-stats.vercel.app/api?username=kzu&show_icons=true&locale=en&show=discussions_answered&theme=dark&custom_title=Stats%20In%20A%20Nutshell"
     media="(prefers-color-scheme: dark)" />
   <source
-    srcset="https://github-readme-stats.vercel.app/api?username=kzu&show_icons=true&locale=en&show=discussions_answered&custom_title=Kzu%20Stats%20In%20A%20Nutshell"
+    srcset="https://github-readme-stats.vercel.app/api?username=kzu&show_icons=true&locale=en&show=discussions_answered&custom_title=Stats%20In%20A%20Nutshell"
     media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-  <img align="center" src="https://github-readme-stats.vercel.app/api?username=kzu&show_icons=true&locale=en&show=discussions_answered&custom_title=Kzu%20Stats%20In%20A%20Nutshell" />
+  <img align="center" src="https://github-readme-stats.vercel.app/api?username=kzu&show_icons=true&locale=en&show=discussions_answered&custom_title=Stats%20In%20A%20Nutshell" />
 </picture>
 </p>
 
