@@ -5,5 +5,5 @@ revenue must pay an [Open Source Maintenance Fee](https://opensourcemaintenancef
 While the source code is freely available under the terms of the [License](license.txt), 
 this package and other aspects of the project require [adherence to the Maintenance Fee](osmfeula.txt).
 
-To pay the Maintenance Fee, [become a Sponsor](https://github.com/sponsors/devlooped) at the corresponding 
-OSMF tier (starting at just $10!). A single fee covers all of [Devlooped packages](https://www.nuget.org/profiles/Devlooped).
+To pay the Maintenance Fee, [become a Sponsor](https://github.com/sponsors/devlooped) at the proper 
+OSMF tier. A single fee covers all of [Devlooped packages](https://www.nuget.org/profiles/Devlooped).
